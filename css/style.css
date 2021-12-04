@@ -1,0 +1,152 @@
+* {
+  background-color: #000;
+  color: #fff;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+}
+
+.section__main .container {
+  max-width: 64em;
+  margin: auto;
+}
+.section__main .container .main__title {
+  text-align: center;
+  vertical-align: middle;
+  line-height: 100vh;
+  font-size: 3em;
+}
+
+.section__second .container {
+  max-width: 44em;
+  margin: auto;
+  position: relative;
+}
+.section__second .container .wrapper {
+  margin: auto;
+  max-width: 44em;
+  min-height: 100vh;
+  background: url("/img/logo.svg") no-repeat;
+  background-size: 75% auto;
+  background-position: center center;
+}
+.section__second .container .right__menu {
+  position: absolute;
+  right: -4em;
+  top: 8em;
+}
+.section__second .container .right__menu a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 3em;
+}
+.section__second .container .right__menu a img {
+  width: 3em;
+  height: 3em;
+}
+.section__second .container .right__menu a:last-child {
+  margin-bottom: 0;
+}
+
+.section__three {
+  padding: 10em 0;
+}
+.section__three .container {
+  max-width: 44em;
+  margin: auto;
+  position: relative;
+}
+.section__three .container a {
+  position: absolute;
+  left: -6em;
+  top: -4em;
+}
+.section__three .container a .back__btn {
+  width: 2em;
+  height: 2em;
+}
+.section__three .container .wrapper {
+  margin: auto;
+  max-width: 30em;
+  min-height: 15em;
+}
+.section__three .container .wrapper .main__title {
+  vertical-align: middle;
+  font-size: 3em;
+}
+
+.section__four {
+  padding: 10em 0;
+}
+.section__four .container {
+  max-width: 44em;
+  margin: auto;
+  position: relative;
+}
+.section__four .container .back__link {
+  position: absolute;
+  left: -6em;
+  top: -4em;
+}
+.section__four .container .back__link .back__btn {
+  width: 2em;
+  height: 2em;
+}
+.section__four .container .wrapper {
+  margin: auto;
+  max-width: 35em;
+  min-height: 15em;
+}
+.section__four .container .wrapper .row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  line-height: 3em;
+}
+.section__four .container .wrapper .row .play {
+  text-decoration: none;
+  display: block;
+  width: 1.8em;
+  height: 1.8em;
+  margin-top: 0.6em;
+  margin-right: 1.8em;
+}
+.section__four .container .wrapper .row .play img {
+  width: 1.8em;
+  height: 1.8em;
+}
+.section__four .container .wrapper .row .main__title {
+  vertical-align: middle;
+  font-size: 3em;
+}
+
+.section__five {
+  padding: 4em 0;
+}
+.section__five .container .wrapper .owl-carousel {
+  position: relative;
+  height: 100vh;
+}
+.section__five .container .wrapper .owl-carousel .owl-prev {
+  position: absolute;
+  left: 9%;
+  top: 9%;
+  width: 1.8em;
+  height: 1.8em;
+  background-image: url("../img/back.svg");
+}
+.section__five .container .wrapper .owl-carousel .owl-next {
+  position: absolute;
+  right: 9%;
+  top: 9%;
+  width: 1.8em;
+  height: 1.8em;
+  background-image: url("../img/forward.svg");
+}
+
+/*# sourceMappingURL=style.css.map */
