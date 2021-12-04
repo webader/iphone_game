@@ -160,30 +160,66 @@
 		//	}
 
 		.wrapper{
-
-			.owl-carousel{
+			position: relative;
+			.owl-carousel {
 				position: relative;
 				height: 100vh;
-
-					.owl-prev{
-						position: absolute;
-						left: 9%;
-						top: 9%;
-						width: 1.8em;
-						height: 1.8em;
-						background-image: url("../img/back.svg");
-					}
-					.owl-next{
-						position: absolute;
-						right: 9%;
-						top: 9%;
-						width: 1.8em;
-						height: 1.8em;
-						background-image: url("../img/forward.svg");
-					}
-
+				.owl-prev {
+					position: absolute;
+					left: 9%;
+					top: 15%;
+					width: 1.8em;
+					height: 1.8em;
+					background-image: url("../img/back.svg");
+				}
+				.owl-next {
+					position: absolute;
+					right: 9%;
+					top: 15%;
+					width: 1.8em;
+					height: 1.8em;
+					background-image: url("../img/forward.svg");
+				}
+			}
+			.buy__link{
+				position: absolute;
+				right: 9%;
+				bottom: 32%;
+				width: 2em;
+				z-index: 3;
+				.buy__btn{
+					width: 20px;
+				}
 			}
 		}
+	}
+}
+
+.section__six{
+	padding: 4em 0;
+	.container{
+		max-width: 44em;
+		margin: auto;
+		position: relative;
+		a{
+			position: absolute;
+			left: -6em;
+			top: 0.9em;
+			.back__btn {
+				width: 2em;
+				height: 2em;
+			}
+		}
+		.wrapper{
+			margin: auto;
+			max-width: 30em;
+			min-height: 15em;
+			.main__title{
+				font-size: 3em;
+				height: 100vh;
+			}
+		}
+
 	}
 }
 

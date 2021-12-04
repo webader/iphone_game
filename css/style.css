@@ -128,6 +128,9 @@
 .section__five {
   padding: 4em 0;
 }
+.section__five .container .wrapper {
+  position: relative;
+}
 .section__five .container .wrapper .owl-carousel {
   position: relative;
   height: 100vh;
@@ -135,7 +138,7 @@
 .section__five .container .wrapper .owl-carousel .owl-prev {
   position: absolute;
   left: 9%;
-  top: 9%;
+  top: 15%;
   width: 1.8em;
   height: 1.8em;
   background-image: url("../img/back.svg");
@@ -143,10 +146,47 @@
 .section__five .container .wrapper .owl-carousel .owl-next {
   position: absolute;
   right: 9%;
-  top: 9%;
+  top: 15%;
   width: 1.8em;
   height: 1.8em;
   background-image: url("../img/forward.svg");
+}
+.section__five .container .wrapper .buy__link {
+  position: absolute;
+  right: 9%;
+  bottom: 32%;
+  width: 2em;
+  z-index: 3;
+}
+.section__five .container .wrapper .buy__link .buy__btn {
+  width: 20px;
+}
+
+.section__six {
+  padding: 4em 0;
+}
+.section__six .container {
+  max-width: 44em;
+  margin: auto;
+  position: relative;
+}
+.section__six .container a {
+  position: absolute;
+  left: -6em;
+  top: 0.9em;
+}
+.section__six .container a .back__btn {
+  width: 2em;
+  height: 2em;
+}
+.section__six .container .wrapper {
+  margin: auto;
+  max-width: 30em;
+  min-height: 15em;
+}
+.section__six .container .wrapper .main__title {
+  font-size: 3em;
+  height: 100vh;
 }
 
 /*# sourceMappingURL=style.css.map */
