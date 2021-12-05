@@ -147,17 +147,6 @@
 .section__five{
 	padding: 4em 0;
 	.container{
-		//max-width: 44em;
-		//margin: auto;
-		//position: relative;
-		//.back__link{
-		//	position: absolute;
-		//	left: -6em;
-		//	top: -4em;
-		//	.back__btn{
-		//		width: 2em;
-		//		height: 2em;
-		//	}
 
 		.wrapper{
 			position: relative;
@@ -171,6 +160,7 @@
 					width: 1.8em;
 					height: 1.8em;
 					background-image: url("../img/back.svg");
+					background-repeat: no-repeat;
 				}
 				.owl-next {
 					position: absolute;
@@ -179,6 +169,7 @@
 					width: 1.8em;
 					height: 1.8em;
 					background-image: url("../img/forward.svg");
+					background-repeat: no-repeat;
 				}
 			}
 			.buy__link{
@@ -219,7 +210,6 @@
 				height: 100vh;
 			}
 		}
-
 	}
 }
 

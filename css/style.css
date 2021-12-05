@@ -142,6 +142,7 @@
   width: 1.8em;
   height: 1.8em;
   background-image: url("../img/back.svg");
+  background-repeat: no-repeat;
 }
 .section__five .container .wrapper .owl-carousel .owl-next {
   position: absolute;
@@ -150,6 +151,7 @@
   width: 1.8em;
   height: 1.8em;
   background-image: url("../img/forward.svg");
+  background-repeat: no-repeat;
 }
 .section__five .container .wrapper .buy__link {
   position: absolute;
