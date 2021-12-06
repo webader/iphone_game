@@ -20,95 +20,101 @@
   font-size: 3em;
 }
 
+.section__second .right__menu {
+  position: absolute;
+  right: 8%;
+  top: 50%;
+  margin-top: -124px;
+}
+.section__second .right__menu a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 4em;
+}
+.section__second .right__menu a img {
+  width: 2.5em;
+  height: 3em;
+}
+.section__second .right__menu a:last-child {
+  margin-bottom: 0;
+}
 .section__second .container {
-  max-width: 44em;
+  max-width: 35em;
   margin: auto;
   position: relative;
 }
 .section__second .container .wrapper {
   margin: auto;
-  max-width: 44em;
   min-height: 100vh;
   background: url("../img/logo.svg") no-repeat;
-  background-size: 75% auto;
   background-position: center center;
 }
-.section__second .container .right__menu {
-  position: absolute;
-  right: -4em;
-  top: 8em;
+
+.section__three {
+  height: 100vh;
+  display: flex;
 }
-.section__second .container .right__menu a {
+.section__three .back__link {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+.section__three .back__link .back__btn {
+  width: 2em;
+  height: 2em;
+}
+.section__three .container {
+  max-width: 35em;
+  margin: auto;
+  position: relative;
+}
+.section__three .container .wrapper {
+  margin: auto;
+}
+.section__three .container .wrapper a {
   text-decoration: none;
   display: block;
   margin-bottom: 3em;
 }
-.section__second .container .right__menu a img {
-  width: 3em;
-  height: 3em;
-}
-.section__second .container .right__menu a:last-child {
-  margin-bottom: 0;
-}
-
-.section__three {
-  padding: 10em 0;
-}
-.section__three .container {
-  max-width: 44em;
-  margin: auto;
-  position: relative;
-}
-.section__three .container a {
-  position: absolute;
-  left: -6em;
-  top: -4em;
-}
-.section__three .container a .back__btn {
-  width: 2em;
-  height: 2em;
-}
-.section__three .container .wrapper {
-  margin: auto;
-  max-width: 30em;
-  min-height: 15em;
-}
 .section__three .container .wrapper .main__title {
-  vertical-align: middle;
   font-size: 3em;
 }
 
 .section__four {
-  padding: 10em 0;
+  height: 100vh;
+  display: flex;
+}
+.section__four .back__link {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.section__four .back__link .back__btn {
+  width: 1.6em;
+  height: 1.9em;
 }
 .section__four .container {
-  max-width: 44em;
+  max-width: 35em;
   margin: auto;
   position: relative;
-}
-.section__four .container .back__link {
-  position: absolute;
-  left: -6em;
-  top: -4em;
-}
-.section__four .container .back__link .back__btn {
-  width: 2em;
-  height: 2em;
 }
 .section__four .container .wrapper {
   margin: auto;
   max-width: 35em;
   min-height: 15em;
 }
-.section__four .container .wrapper .row {
+.section__four .container .wrapper .video {
+  text-decoration: none;
+}
+.section__four .container .wrapper .video .row {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-  line-height: 3em;
+  padding-bottom: 2em;
 }
-.section__four .container .wrapper .row .play {
+.section__four .container .wrapper .video .row .play {
   text-decoration: none;
   display: block;
   width: 1.8em;
@@ -116,17 +122,27 @@
   margin-top: 0.6em;
   margin-right: 1.8em;
 }
-.section__four .container .wrapper .row .play img {
+.section__four .container .wrapper .video .row .play img {
   width: 1.8em;
   height: 1.8em;
 }
-.section__four .container .wrapper .row .main__title {
+.section__four .container .wrapper .video .row .main__title {
   vertical-align: middle;
   font-size: 3em;
 }
 
 .section__five {
   padding: 4em 0;
+}
+.section__five .container .back__link {
+  position: absolute;
+  left: 9%;
+  top: 25%;
+  z-index: 3;
+}
+.section__five .container .back__link .back__btn {
+  width: 1.8em;
+  height: 1.8em;
 }
 .section__five .container .wrapper {
   position: relative;
@@ -137,8 +153,8 @@
 }
 .section__five .container .wrapper .owl-carousel .owl-prev {
   position: absolute;
-  left: 9%;
-  top: 15%;
+  right: 9%;
+  top: 30%;
   width: 1.8em;
   height: 1.8em;
   background-image: url("../img/back.svg");
@@ -189,6 +205,88 @@
 .section__six .container .wrapper .main__title {
   font-size: 3em;
   height: 100vh;
+}
+
+.section__seven {
+  height: 100vh;
+  display: flex;
+}
+.section__seven .back__link {
+  position: absolute;
+  left: 10%;
+  top: 20%;
+}
+.section__seven .back__link .back__btn {
+  width: 2em;
+  height: 2em;
+}
+.section__seven .container {
+  max-width: 35em;
+  margin: auto;
+  position: relative;
+}
+.section__seven .container .wrapper {
+  margin: auto;
+}
+.section__seven .container .wrapper a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 3em;
+}
+.section__seven .container .wrapper .main__title {
+  font-size: 3em;
+  margin-bottom: 1em;
+}
+.section__seven .container .wrapper .main__title:last-child {
+  margin-bottom: 0;
+}
+
+.section__eight {
+  height: 100vh;
+  display: flex;
+}
+.section__eight .back__link {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.section__eight .back__link .back__btn {
+  width: 1.6em;
+  height: 1.9em;
+}
+.section__eight .container {
+  max-width: 35em;
+  margin: auto;
+  position: relative;
+}
+.section__eight .container .wrapper {
+  margin: auto;
+  max-width: 35em;
+  min-height: 15em;
+}
+.section__eight .container .wrapper .row {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  line-height: 3em;
+}
+.section__eight .container .wrapper .row .play {
+  text-decoration: none;
+  display: block;
+  width: 1.8em;
+  height: 1.8em;
+  margin-top: 0.6em;
+  margin-right: 1.8em;
+}
+.section__eight .container .wrapper .row .play img {
+  width: 1.8em;
+  height: 1.8em;
+}
+.section__eight .container .wrapper .row .main__title {
+  vertical-align: middle;
+  font-size: 3em;
 }
 
 /*# sourceMappingURL=style.css.map */
