@@ -25,7 +25,7 @@ body {
 
 .section__second .right__menu {
   position: absolute;
-  right: 8%;
+  right: 10%;
   top: 50%;
   margin-top: -124px;
 }
@@ -59,12 +59,12 @@ body {
 }
 .section__three .back__link {
   position: absolute;
-  left: 10%;
   top: 20%;
+  left: 10%;
 }
 .section__three .back__link .back__btn {
-  width: 2em;
-  height: 2em;
+  width: 1.8em;
+  height: 1.8em;
 }
 .section__three .container {
   max-width: 35em;
@@ -190,11 +190,18 @@ body {
   height: 100vh;
 }
 
-.section__six {
-  padding: 4em 0;
+.section__six .back__link {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  z-index: 3;
+}
+.section__six .back__link .back__btn {
+  width: 1.8em;
+  height: 1.8em;
 }
 .section__six .container {
-  max-width: 44em;
+  max-width: 35em;
   margin: auto;
   position: relative;
 }
@@ -204,17 +211,16 @@ body {
   top: 0.9em;
 }
 .section__six .container a .back__btn {
-  width: 2em;
-  height: 2em;
+  width: 1.8em;
+  height: 1.8em;
 }
 .section__six .container .wrapper {
   margin: auto;
   max-width: 30em;
-  min-height: 15em;
 }
 .section__six .container .wrapper .main__title {
+  margin-top: 20%;
   font-size: 3em;
-  height: 100vh;
 }
 
 .section__seven {

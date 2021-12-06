@@ -38,7 +38,7 @@ body{
 .section__second{
 	.right__menu{
 		position: absolute;
-		right: 8%;
+		right: 10%;
 		top: 50%;
 		margin-top: -124px;
 		a{
@@ -76,11 +76,11 @@ body{
 	display: flex;
 	.back__link{
 		position: absolute;
-		left: 10%;
 		top: 20%;
+		left: 10%;
 		.back__btn {
-			width: 2em;
-			height: 2em;
+			width: 1.8em;
+			height: 1.8em;
 		}
 	}
 	.container{
@@ -157,7 +157,6 @@ body{
 }
 
 .section__five{
-
 	.container{
 		.back__link{
 			position: absolute;
@@ -218,9 +217,18 @@ body{
 }
 
 .section__six{
-	padding: 4em 0;
+	.back__link{
+		position: absolute;
+		top: 20%;
+		left: 10%;
+		z-index: 3;
+		.back__btn{
+			width: 1.8em;
+			height: 1.8em;
+		}
+	}
 	.container{
-		max-width: 44em;
+		max-width: 35em;
 		margin: auto;
 		position: relative;
 		a{
@@ -228,17 +236,18 @@ body{
 			left: -6em;
 			top: 0.9em;
 			.back__btn {
-				width: 2em;
-				height: 2em;
+				width: 1.8em;
+				height: 1.8em;
 			}
 		}
 		.wrapper{
 			margin: auto;
 			max-width: 30em;
-			min-height: 15em;
+
 			.main__title{
+				margin-top: 20%;
 				font-size: 3em;
-				height: 100vh;
+
 			}
 		}
 	}
