@@ -7,6 +7,17 @@
 }
 //div {@include flexbox();}
 
+@mixin max-screen($res) {
+	@media screen and (max-width: $res) {
+		@content;
+	}
+}
+//@include max-screen(992px){
+//	border-bottom: none;
+//}
+
+
+
 *{
 	color: #fff;
 	font-size: 10px;
@@ -23,6 +34,10 @@ body{
 //Main section
 
 .section__main{
+	display: none;
+	@include max-screen(567px){
+		display: block;
+	}
 	.container{
 		max-width: 64em;
 		margin: auto;
@@ -33,14 +48,23 @@ body{
 			font-size: 3em;
 		}
 	}
+
 }
 
 .section__second{
+	display: block;
+	@include max-screen(567px){
+		display: none;
+	}
 	.right__menu{
 		position: absolute;
 		right: 10%;
 		top: 50%;
 		margin-top: -124px;
+		display: block;
+		@include max-screen(567px){
+			display: none;
+		}
 		a{
 			text-decoration: none;
 			display: block;
@@ -336,7 +360,5 @@ body{
 
 	}
 }
-
-
 
 

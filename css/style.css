@@ -12,6 +12,14 @@ body {
   background-color: #000;
 }
 
+.section__main {
+  display: none;
+}
+@media screen and (max-width: 567px) {
+  .section__main {
+    display: block;
+  }
+}
 .section__main .container {
   max-width: 64em;
   margin: auto;
@@ -23,11 +31,25 @@ body {
   font-size: 3em;
 }
 
+.section__second {
+  display: block;
+}
+@media screen and (max-width: 567px) {
+  .section__second {
+    display: none;
+  }
+}
 .section__second .right__menu {
   position: absolute;
   right: 10%;
   top: 50%;
   margin-top: -124px;
+  display: block;
+}
+@media screen and (max-width: 567px) {
+  .section__second .right__menu {
+    display: none;
+  }
 }
 .section__second .right__menu a {
   text-decoration: none;
