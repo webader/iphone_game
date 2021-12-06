@@ -53,7 +53,7 @@ body {
   position: absolute;
   right: -30%;
   top: 50%;
-  margin-top: -12.5em;
+  margin-top: -12.55em;
   display: block;
 }
 @media screen and (max-width: 567px) {
@@ -64,7 +64,7 @@ body {
 .section__second .container .wrapper .right__menu a {
   text-decoration: none;
   display: block;
-  margin-bottom: 5em;
+  margin-bottom: 4.9em;
 }
 .section__second .container .wrapper .right__menu a img {
   width: 1.8em;
