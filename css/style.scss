@@ -56,40 +56,40 @@ body{
 	@include max-screen(567px){
 		display: none;
 	}
-	.right__menu{
-		position: absolute;
-		right: 10%;
-		top: 50%;
-		margin-top: -12.4em;
-		display: block;
-		@include max-screen(567px){
-			display: none;
-		}
-		a{
-			text-decoration: none;
-			display: block;
-			margin-bottom: 4em;
-			img{
-				width: 2.5em;
-				height: 3em;
-			}
-		}
-		a:last-child{
-			margin-bottom: 0;
-		}
-	}
 	.container{
 		max-width: 35em;
 		margin: auto;
 		position: relative;
 
 		.wrapper{
+			.right__menu{
+				position: absolute;
+				right: -30%;
+				top: 50%;
+				margin-top: -12.5em;
+				display: block;
+
+				@include max-screen(567px){
+					display: none;
+				}
+				a{
+					text-decoration: none;
+					display: block;
+					margin-bottom: 5em;
+					img{
+						width: 1.8em;
+
+					}
+				}
+				a:last-child{
+					margin-bottom: 0;
+				}
+			}
 			margin: auto;
 			//max-width: 35em;
 			min-height: 100vh;
-			background: url("../img/logo.svg") no-repeat;
-			//background-size: 75% auto;
-			background-position: center center;
+			background: url("../img/logo.svg") no-repeat center;
+			//background-position: center center;
 		}
 	}
 }

@@ -39,30 +39,6 @@ body {
     display: none;
   }
 }
-.section__second .right__menu {
-  position: absolute;
-  right: 10%;
-  top: 50%;
-  margin-top: -12.4em;
-  display: block;
-}
-@media screen and (max-width: 567px) {
-  .section__second .right__menu {
-    display: none;
-  }
-}
-.section__second .right__menu a {
-  text-decoration: none;
-  display: block;
-  margin-bottom: 4em;
-}
-.section__second .right__menu a img {
-  width: 2.5em;
-  height: 3em;
-}
-.section__second .right__menu a:last-child {
-  margin-bottom: 0;
-}
 .section__second .container {
   max-width: 35em;
   margin: auto;
@@ -71,8 +47,30 @@ body {
 .section__second .container .wrapper {
   margin: auto;
   min-height: 100vh;
-  background: url("../img/logo.svg") no-repeat;
-  background-position: center center;
+  background: url("../img/logo.svg") no-repeat center;
+}
+.section__second .container .wrapper .right__menu {
+  position: absolute;
+  right: -30%;
+  top: 50%;
+  margin-top: -12.5em;
+  display: block;
+}
+@media screen and (max-width: 567px) {
+  .section__second .container .wrapper .right__menu {
+    display: none;
+  }
+}
+.section__second .container .wrapper .right__menu a {
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5em;
+}
+.section__second .container .wrapper .right__menu a img {
+  width: 1.8em;
+}
+.section__second .container .wrapper .right__menu a:last-child {
+  margin-bottom: 0;
 }
 
 .section__three {
