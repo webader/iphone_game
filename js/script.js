@@ -18,5 +18,27 @@ $(document).ready(function(){
 	});
 
 
+	// window.addEventListener('resize', function () {
+	// 	myFunction('resize');
+	// });
+	//
+	// window.addEventListener("orientationchange", function() {
+	// 	myFunction('orientation');
+	// });
+	//
+	// function myFunction(value) {
+	// 	if (value == 'resize') {
+	// 		console.log('resize')
+	// 		// do something
+	// 	} else if (value == 'orientation') {
+	// 		console.log('orientation')
+	// 		// do something else
+	// 	}
+	// }
+
+
+
 
 });
+
+
