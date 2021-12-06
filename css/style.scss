@@ -8,7 +8,6 @@
 //div {@include flexbox();}
 
 *{
-	background-color: #000;
 	color: #fff;
 	font-size: 10px;
 	margin: 0;
@@ -18,6 +17,9 @@
 	box-sizing: border-box;
 }
 
+body{
+	background-color: #000;
+}
 //Main section
 
 .section__main{
@@ -155,12 +157,12 @@
 }
 
 .section__five{
-	padding: 4em 0;
+
 	.container{
 		.back__link{
 			position: absolute;
-			left: 9%;
-			top: 25%;
+			top: 20%;
+			left: 10%;
 			z-index: 3;
 			.back__btn{
 				width: 1.8em;
@@ -174,28 +176,32 @@
 				height: 100vh;
 				.owl-prev {
 					position: absolute;
-					right: 9%;
-					top: 30%;
+					right: 10%;
+					top: 35%;
 					width: 1.8em;
 					height: 1.8em;
 					background-image: url("../img/back.svg");
 					background-repeat: no-repeat;
 				}
-				.owl-next {
+				.owl-next{
 					position: absolute;
-					right: 9%;
-					top: 15%;
+					right: 10%;
+					top: 20%;
 					width: 1.8em;
 					height: 1.8em;
 					background-image: url("../img/forward.svg");
 					background-repeat: no-repeat;
 				}
+				.owl-dots{
+					display: none;
+				}
 			}
 			.buy__link{
 				position: absolute;
-				right: 9%;
-				bottom: 32%;
-				width: 2em;
+				background-color: rgba(0,0,0,0) ;
+				right: 10%;
+				bottom: 20%;
+				width: 1.8em;
 				z-index: 3;
 				.buy__btn{
 					width: 20px;
@@ -203,6 +209,12 @@
 			}
 		}
 	}
+}
+
+.owl-carousel .owl-item img {
+	display: block;
+	width: 100%;
+	height: 100vh;
 }
 
 .section__six{
