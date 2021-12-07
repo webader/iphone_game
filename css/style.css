@@ -51,14 +51,19 @@ body {
 }
 .section__second .container .wrapper .right__menu {
   position: absolute;
-  right: -40%;
+  right: -35%;
   top: 50%;
   margin-top: -12.55em;
   display: block;
 }
-@media screen and (max-width: 567px) {
+@media screen and (max-width: 666px) {
   .section__second .container .wrapper .right__menu {
-    display: none;
+    right: -22%;
+  }
+}
+@media screen and (min-width: 844px) {
+  .section__second .container .wrapper .right__menu {
+    right: -45%;
   }
 }
 .section__second .container .wrapper .right__menu a {

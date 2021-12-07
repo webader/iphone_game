@@ -64,14 +64,42 @@ body{
 		.wrapper{
 			.right__menu{
 				position: absolute;
-				right: -40%;
+				right: -35%;
 				top: 50%;
 				margin-top: -12.55em;
 				display: block;
 
-				@include max-screen(567px){
-					display: none;
+				@media screen and (max-width: 666px) {
+					right: -22%;
 				}
+				@media screen and (min-width: 844px) {
+					right: -45%;
+				}
+
+				//@media  (max-width: 666px){
+				//	right: -22%;
+				//
+				//}
+				//@media (max-width: 812px){
+				//	right: -40%;
+				//
+				//}
+				//@media (max-width: 844px){
+				//	right: -45%;
+				//
+				//}
+
+
+
+
+				//@include max-screen(667px){
+				//	right: -25%;
+				//}
+				//@include max-screen(736px){
+				//	right: -30%;
+				//}
+
+
 				a{
 					text-decoration: none;
 					display: block;
@@ -95,38 +123,6 @@ body{
 }
 
 
-//.section__three{
-//	height: 100vh;
-//	display: flex;
-//	.back__link{
-//		position: absolute;
-//		top: 20%;
-//		left: 10%;
-//		.back__btn {
-//			width: 1.8em;
-//			height: 1.8em;
-//		}
-//	}
-//	.container{
-//		max-width: 35em;
-//		margin: auto;
-//		position: relative;
-//
-//		.wrapper{
-//			margin: auto;
-//			a{
-//				text-decoration: none;
-//				display: block;
-//				margin-bottom: 3em;
-//			}
-//			.main__title{
-//
-//				font-size: 3em;
-//			}
-//		}
-//
-//	}
-//}
 
 .section__three{
 
@@ -270,57 +266,6 @@ body{
 	}
 }
 
-//.section__four{
-//	height: 100vh;
-//	display: flex;
-//
-//	.back__link{
-//		position: absolute;
-//		top: 20%;
-//		left: 10%;
-//		.back__btn{
-//			width: 1.6em;
-//			height: 1.9em;
-//		}
-//	}
-//	.container{
-//		max-width: 35em;
-//		margin: auto;
-//		position: relative;
-//		.wrapper{
-//			margin: auto;
-//			max-width: 42em;
-//			min-height: 15em;
-//			.video{
-//				text-decoration: none;
-//				.row{
-//					@include flexbox();
-//					padding-bottom: 2em;
-//					//&:nth-child(2){
-//					//	padding-bottom: 0; //?
-//					//}
-//					.play{
-//						text-decoration: none;
-//						display: block;
-//						width: 1.8em;
-//						height: 1.8em;
-//						margin-top: 0.6em;
-//						margin-right: 1.8em;
-//						img{
-//							width: 1.8em;
-//							height: 1.8em;
-//						}
-//					}
-//					.main__title{
-//						vertical-align: middle;
-//						font-size: 2.8em;
-//					}
-//				}
-//			}
-//		}
-//	}
-//}
-
 .section__five{
 	.container{
 		.back__link{
@@ -382,10 +327,7 @@ body{
 }
 
 .owl-carousel .owl-stage-outer .owl-item.active {
-
 	height: 100vh;
-
-
 }
 
 .section__six{
