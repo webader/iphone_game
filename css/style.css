@@ -73,85 +73,130 @@ body {
   margin-bottom: 0;
 }
 
-.section__three {
-  height: 100vh;
-  display: flex;
-}
-.section__three .back__link {
+.section__three .container .back__link {
   position: absolute;
   top: 20%;
   left: 10%;
+  z-index: 3;
 }
-.section__three .back__link .back__btn {
+.section__three .container .back__link .back__btn {
   width: 1.8em;
   height: 1.8em;
-}
-.section__three .container {
-  max-width: 35em;
-  margin: auto;
-  position: relative;
 }
 .section__three .container .wrapper {
-  margin: auto;
+  position: relative;
 }
-.section__three .container .wrapper a {
+.section__three .container .wrapper .owl-carousel {
+  position: relative;
+  height: 100vh;
+}
+.section__three .container .wrapper .owl-carousel .wrapper__text {
+  margin: auto;
+  max-width: 42em;
+  margin-top: 14%;
+}
+.section__three .container .wrapper .owl-carousel .wrapper__text a {
   text-decoration: none;
   display: block;
-  margin-bottom: 3em;
 }
-.section__three .container .wrapper .main__title {
-  font-size: 3em;
+.section__three .container .wrapper .owl-carousel .wrapper__text .main__title {
+  font-size: 2.8em;
+  vertical-align: center;
+}
+.section__three .container .wrapper .owl-carousel .owl-prev {
+  position: absolute;
+  right: 10%;
+  top: 35%;
+  width: 1.8em;
+  height: 1.8em;
+  background-image: url("../img/back.svg");
+  background-repeat: no-repeat;
+}
+.section__three .container .wrapper .owl-carousel .owl-next {
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  width: 1.8em;
+  height: 1.8em;
+  background-image: url("../img/forward.svg");
+  background-repeat: no-repeat;
+}
+.section__three .container .wrapper .owl-carousel .owl-dots {
+  display: none;
+}
+.section__three .container .wrapper .buy__link {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  right: 10%;
+  bottom: 20%;
+  width: 1.8em;
+  z-index: 3;
+}
+.section__three .container .wrapper .buy__link .buy__btn {
+  width: 20px;
 }
 
-.section__four {
-  height: 100vh;
-  display: flex;
-}
-.section__four .back__link {
+.section__four .container .back__link {
   position: absolute;
   top: 20%;
   left: 10%;
+  z-index: 3;
 }
-.section__four .back__link .back__btn {
-  width: 1.6em;
-  height: 1.9em;
-}
-.section__four .container {
-  max-width: 35em;
-  margin: auto;
-  position: relative;
+.section__four .container .back__link .back__btn {
+  width: 1.8em;
+  height: 1.8em;
 }
 .section__four .container .wrapper {
+  position: relative;
+}
+.section__four .container .wrapper .owl-carousel {
+  position: relative;
+  height: 100vh;
+}
+.section__four .container .wrapper .owl-carousel .wrapper__text {
   margin: auto;
-  max-width: 35em;
-  min-height: 15em;
+  max-width: 42em;
+  margin-top: 14%;
 }
-.section__four .container .wrapper .video {
-  text-decoration: none;
-}
-.section__four .container .wrapper .video .row {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  padding-bottom: 2em;
-}
-.section__four .container .wrapper .video .row .play {
+.section__four .container .wrapper .owl-carousel .wrapper__text a {
   text-decoration: none;
   display: block;
+}
+.section__four .container .wrapper .owl-carousel .wrapper__text .main__title {
+  font-size: 2.8em;
+  vertical-align: center;
+}
+.section__four .container .wrapper .owl-carousel .owl-prev {
+  position: absolute;
+  right: 10%;
+  top: 35%;
   width: 1.8em;
   height: 1.8em;
-  margin-top: 0.6em;
-  margin-right: 1.8em;
+  background-image: url("../img/back.svg");
+  background-repeat: no-repeat;
 }
-.section__four .container .wrapper .video .row .play img {
+.section__four .container .wrapper .owl-carousel .owl-next {
+  position: absolute;
+  right: 10%;
+  top: 20%;
   width: 1.8em;
   height: 1.8em;
+  background-image: url("../img/forward.svg");
+  background-repeat: no-repeat;
 }
-.section__four .container .wrapper .video .row .main__title {
-  vertical-align: middle;
-  font-size: 3em;
+.section__four .container .wrapper .owl-carousel .owl-dots {
+  display: none;
+}
+.section__four .container .wrapper .buy__link {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0);
+  right: 10%;
+  bottom: 20%;
+  width: 1.8em;
+  z-index: 3;
+}
+.section__four .container .wrapper .buy__link .buy__btn {
+  width: 20px;
 }
 
 .section__five .container .back__link {
@@ -210,6 +255,10 @@ body {
   height: 100vh;
 }
 
+.owl-carousel .owl-stage-outer .owl-item.active {
+  height: 100vh;
+}
+
 .section__six .back__link {
   position: absolute;
   top: 20%;
@@ -257,7 +306,7 @@ body {
   height: 2em;
 }
 .section__seven .container {
-  max-width: 35em;
+  max-width: 42em;
   margin: auto;
   position: relative;
 }
@@ -270,7 +319,7 @@ body {
   margin-bottom: 3em;
 }
 .section__seven .container .wrapper .main__title {
-  font-size: 3em;
+  font-size: 2.8em;
   margin-bottom: 1em;
 }
 .section__seven .container .wrapper .main__title:last-child {
