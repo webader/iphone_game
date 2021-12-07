@@ -34,7 +34,6 @@ body {
   vertical-align: middle;
   line-height: 100vh;
   font-size: 2.6em;
-  line-height: 1.2;
 }
 
 .section__second {
@@ -161,6 +160,14 @@ body {
   width: 20px;
 }
 
+.section__four {
+  display: block;
+}
+@media screen and (max-width: 567px) {
+  .section__four {
+    display: none;
+  }
+}
 .section__four .container .back__link {
   position: fixed;
   top: 8em;
@@ -182,6 +189,15 @@ body {
   margin: auto;
   max-width: 42em;
   margin-top: 14%;
+  display: flex;
+}
+.section__four .container .wrapper .owl-carousel .wrapper__text .play {
+  width: 3em;
+  margin-right: 1.5em;
+}
+.section__four .container .wrapper .owl-carousel .wrapper__text .play img {
+  height: 3em;
+  width: 2em;
 }
 .section__four .container .wrapper .owl-carousel .wrapper__text a {
   text-decoration: none;
@@ -233,6 +249,14 @@ body {
   width: 20px;
 }
 
+.section__five {
+  display: block;
+}
+@media screen and (max-width: 567px) {
+  .section__five {
+    display: none;
+  }
+}
 .section__five .container .back__link {
   position: fixed;
   top: 8em;
@@ -301,6 +325,14 @@ body {
   height: 100vh;
 }
 
+.section__six {
+  display: block;
+}
+@media screen and (max-width: 567px) {
+  .section__six {
+    display: none;
+  }
+}
 .section__six .back__link {
   position: fixed;
   top: 8em;
@@ -332,10 +364,13 @@ body {
 .section__six .container .wrapper .main__title {
   font-size: 2.6em;
   line-height: 1.2;
-  margin-bottom: 1.2em;
 }
 .section__six .container .wrapper .main__title:first-child {
   margin-top: 3em;
+  margin-bottom: 1.2em;
+}
+.section__six .container .wrapper .mb20 {
+  margin-bottom: 1.2em;
 }
 .section__six .container .wrapper p {
   font-size: 1.8em;
@@ -346,6 +381,11 @@ body {
 .section__seven {
   height: 100vh;
   display: flex;
+}
+@media screen and (max-width: 567px) {
+  .section__seven {
+    display: none;
+  }
 }
 .section__seven .back__link {
   position: fixed;

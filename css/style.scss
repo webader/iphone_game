@@ -51,7 +51,7 @@ body{
 			vertical-align: middle;
 			line-height: 100vh;
 			font-size: 2.6em;
-			line-height: 1.2;
+
 		}
 	}
 }
@@ -192,7 +192,10 @@ body{
 }
 
 .section__four{
-
+	display: block;
+	@include max-screen(567px){
+		display: none;
+	}
 	.container{
 		.back__link{
 			position: fixed;
@@ -214,6 +217,18 @@ body{
 					margin: auto;
 					max-width: 42em;
 					margin-top: 14%;  //?
+					display: flex;
+
+						.play{
+							width: 3em;
+							margin-right: 1.5em;
+							img{
+								height: 3em;
+								width: 2em;
+
+
+							}
+						}
 
 					a{
 						text-decoration: none;
@@ -272,6 +287,10 @@ body{
 }
 
 .section__five{
+	display: block;
+	@include max-screen(567px){
+		display: none;
+	}
 	.container{
 		.back__link{
 			position: fixed;
@@ -344,6 +363,10 @@ body{
 }
 
 .section__six{
+	display: block;
+	@include max-screen(567px){
+		display: none;
+	}
 	.back__link{
 		position: fixed;
 		top: 8em;
@@ -374,10 +397,14 @@ body{
 			.main__title{
 				font-size: 2.6em;
 				line-height: 1.2;
-				margin-bottom: 1.2em;
+
 				&:first-child{
 					margin-top: 3em;
+					margin-bottom: 1.2em;
 				}
+			}
+			.mb20{
+				margin-bottom: 1.2em;
 			}
 			p{
 				font-size: 1.8em;
@@ -391,6 +418,9 @@ body{
 .section__seven{
 	height: 100vh;
 	display: flex;
+	@include max-screen(567px){
+		display: none;
+	}
 	.back__link{
 		position: fixed;
 		top: 8em;
