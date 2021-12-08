@@ -5,6 +5,9 @@ $(document).ready(function(){
 		margin:0,
 		nav:true,
 		navText: [ '', ' ' ],
+		URLhashListener: true,
+		startPosition: 'URLHash',
+
 
 		responsive:{
 			0:{
@@ -15,7 +18,11 @@ $(document).ready(function(){
 				items:3
 			}
 		}
+
 	});
+	owl.on('changed.owl.carousel', function(event) {
+		location.hash = 'slide' + event.property.value;
+	})
 
 
 
